@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sample Layout</title>
+    <style>
+        /* *{
+            border-style: solid;
+            border-color: red;
+        } */
+
+        body{
+            width: 940px;
+            margin: 0 auto;
+
+        }
+        header, section, article, aside, footer{
+            display: block;
+        }
+        header, footer{
+            padding: 0;
+            text-align: center;
+        }
+        nav{
+            text-align: center;
+        }
+        nav ul{
+            list-style-type: none;
+        }
+        nav li{
+            display: inline-block;
+            margin: 0 0 0 50px;
+            margin-bottom: 0;
+            width: 100px;
+        }
+        aside.left{
+            float: left;
+        }
+        section{
+            float: left;
+            width: 500px;
+            padding-left: 20px;
+            border-left: 2px dotted #b2a497;
+            border-right: 2px dotted #b2a497;
+            padding-right: 20px;
+        }
+        aside.right{
+            float: right;
+        }
+
+        footer{
+            clear: both!important;
+            width: 940px;
+            height: 100px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Page Layout 1</h1>
+    </header>
+    <hr>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <aside class="left">
+        <figure>
+            <img src="image1.jpg" height="100px" width="100px" alt="Ben 10">
+            <figcaption>Ben 10</figcaption>
+        </figure>
+        <div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </aside>
+    
+
+    <section>
+        <article>
+            <header><h1><u>Article 1</u></h1></header>
+            <div>
+                <p>
+                    There are a few reasons that lead to empty pages. The most common example is the following: the content was removed but someone forgot to delete a page at the same time. Also, plugins generate numerous pages, and in some complex cases, they may create empty ones.There are a few reasons that lead to empty pages. The most common example is the following: the content was removed but someone forgot to delete a page at the same time. Also, plugins generate numerous pages, and in some complex cases, they may create empty ones.There are a few reasons that lead to empty pages. The most common example is the following: the content was removed but someone forgot to delete a page at the same time. Also, plugins generate numerous pages, and in some complex cases, they may create empty ones.
+                </p>
+            </div>
+            <p>#END of the article 1</p>
+            <header><h1><u>Article 2</u></h1></header>
+            <div>
+                <p>
+                    There are a few reasons that lead to empty pages. The most common example is the following: the content was removed but someone forgot to delete a page at the same time. Also, plugins generate numerous pages, and in some complex cases, they may create empty ones.There are a few reasons that lead to empty pages. The most common example is the following: the content was removed but someone forgot to delete a page at the same time. Also, plugins generate numerous pages, and in some complex cases, they may create empty ones.There are a few reasons that lead to empty pages. The most common example is the following: the content was removed but someone forgot to delete a page at the same time. Also, plugins generate numerous pages, and in some complex cases, they may create empty ones.
+                </p>
+            </div>
+            <p>#END of the article 2</p>
+        </article>
+    </section>
+    <aside class="right">
+        <figure>
+            <img src="image1.jpg" height="100px" width="100px" alt="Ben 10">
+            <figcaption>Ben 10</figcaption>
+        </figure>
+        <div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </aside>
+    
+
+    <footer>
+        <hr>
+        <p>
+            Copyright &copy; - Sudhakaran S / 2021
+        </p>
+    </footer>
+</body>
+</html>
